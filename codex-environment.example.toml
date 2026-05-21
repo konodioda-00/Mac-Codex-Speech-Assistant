@@ -1,0 +1,11 @@
+# Move this file to .codex/environments/environment.toml if your environment allows hidden project config directories.
+version = 1
+name = "CodexSpeechAssistant"
+
+[setup]
+script = ""
+
+[[actions]]
+name = "Run"
+icon = "run"
+command = "./script/build_and_run.sh"
